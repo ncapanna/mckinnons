@@ -71,6 +71,7 @@ h4 { font-size: 1.8rem; line-height: 1.35; }
 h5 { font-size: 1.7rem; line-height: 1.5; }
 h6 { font-size: 1.5rem; line-height: 1.5; }
 p  { font-size: 1.1rem; line-height: 1.5;}
+footer p  { font-size: 14px; line-height: 1.5;}
 blockquote  { font-size: 1.1rem; line-height: 1.5;}
 li  { font-size: 1.1rem; }
 
@@ -94,6 +95,11 @@ section         { padding: 10vh 5%; }
 .fa.featured {
   color: #1abc9c; /* featured color */
   background: none;
+}
+
+.relative {
+  position:relative;
+  display:inline-block;
 }
 
 header, footer{
@@ -129,6 +135,12 @@ nav a:hover {
   max-width: 15rem;
   /*margin: 0.5em 0;*/
 }
+
+footer .logo {
+  max-height: 10rem;
+  max-width: 30rem;
+}
+
 header {
   border-bottom: 1px solid rgb(245,245,245);
 }
@@ -137,7 +149,7 @@ footer {
   color: white;
 }
 footer nav a {
-  display: block;
+  display: inline-block;
   padding: 0.5em;
 }
 

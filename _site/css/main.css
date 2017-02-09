@@ -125,15 +125,16 @@ nav a:hover {
   transition: all 0.5s;
 }
 .logo {
-  max-height: 2.5rem;
+  max-height: 5.5rem;
   max-width: 15rem;
-  margin: 0.5em 0;
+  /*margin: 0.5em 0;*/
 }
 header {
   border-bottom: 1px solid rgb(245,245,245);
 }
 footer {
   border-top: 1px solid rgb(245,245,245);
+  color: white;
 }
 footer nav a {
   display: block;
@@ -158,23 +159,23 @@ footer nav .fa,
 .banner {
   background-color: #1abc9c; /* featured-color */
   background-size: cover;
-  background-position: center;
-  min-height:80vh;
+  background-position: top;
+  min-height:60vh;
 }
 
 .box-img { /* This can be used for any col or div that you want filled with a background image. */
   background-color: grey; /* this is a fallback incase the image doesn't load */
-  background-image: url('/images/yoga-1.jpg'); /* if you are adding a unique image to every one you can remove this */
   background-size: cover;
   background-position: center;
   min-height: 20vh;
+  padding: 5%;
 }
 
 /* Buttons */
  button, /* button is an element snipcart uses */
 .button,
 .button-inverted {
-  background-color: #1abc9c; /* featured color */
+  background-color: #009077; /* featured color */
   border: none;
   border-radius: 5px;
   padding: 0.5em 3em;
@@ -191,6 +192,7 @@ footer nav .fa,
 .button:hover,
 .button-inverted:hover {
   font-weight: semi-bold;
+  background-color: #ffe56b;
 }
 
 /* Shop Elements */
@@ -288,8 +290,18 @@ form [class*=col-] {
 /* ------------ BACKGROUND IMAGES --------------- */
 
 #intro-banner {
-  background-image: url('/images/yoga-1.jpg'); /* This is just an axample */
+  background-image: url('/images/home-page-images/Silder-1.jpg');
+   /* This is just an axample */
 }
+
+.projects-bg {
+background-image: url('/images/home-page-images/Home-Projects-link.jpg');
+}
+
+.careers-bg {
+background-image: url('/images/home-page-images/Home-careers-link.jpg');
+}
+
 
 /*------- Media Queries ------------------------*/
 @media(max-width:800px) {

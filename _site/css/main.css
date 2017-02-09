@@ -88,12 +88,16 @@ section         { padding: 10vh 5%; }
 /* Other universal styles */
 
 .featured{
-  background-color: #1abc9c; /* featured color */
+  background-color: #009077; /* featured color */
   color: white;
 }
 .fa.featured {
   color: #1abc9c; /* featured color */
   background: none;
+}
+
+header, footer{
+  background-color: #009077;
 }
 
 hr {
@@ -112,10 +116,11 @@ hr {
 nav a {
     text-decoration: none;
     padding: 1em;
-    color: inherit;
+    color: #ffe56b;
 }
 nav a:hover {
-  color: #1abc9c; /* featured color */
+  color: #009077; /* featured color */
+  background-color: #ffe56b;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }

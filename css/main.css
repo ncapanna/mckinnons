@@ -118,6 +118,17 @@ hr {
     font-weight: bold;
 }
 
+/*Font colour*/
+a {
+    text-decoration: underline;
+    padding: 1em;
+    color: #009077;
+}
+a:hover {
+  color: #206559;
+  transition: all 0.5s;
+}
+
 /* ----- HEADER & FOOTER --------------------------- */
 nav a {
     text-decoration: none;

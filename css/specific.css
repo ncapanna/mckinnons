@@ -26,4 +26,10 @@ a:hover .hover-text {
 background-color: #ffffff;
 }
 
-/* Page Name  - Section Name */
+/* Projects Page */
+
+.projects {
+  font-style: bold;
+  text-align: center;
+  font-size: 14px;
+}

@@ -33,3 +33,8 @@ background-color: #ffffff;
   text-align: center;
   font-size: 14px;
 }
+
+/*Awards Carousel*/
+.image-border img{
+   border:1px solid #e8e8e8;
+}

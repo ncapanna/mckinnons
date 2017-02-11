@@ -5,7 +5,7 @@ $(document).ready( function() {
   // Basic setup responsive carousel with prev and next
   $('.owl-carousel').owlCarousel({
       loop:true,
-      margin:10,
+      margin:20,
       nav:true,
       autoplay:true,
       responsive:{

@@ -38,14 +38,12 @@ projects:
 
   {% for project in page.projects %}
     <div class="col-4_sm-6_xs-12 ">
-        <img class="editable" src="{{projects.image_path}}">
+        <img class="editable" src="{{project.image_path}}">
         <!-- add alt text  -->
-        <p class=projects>{{projects.description}}</p>
+        <p class=projects>{{project.description}}</p>
      </div>
 
   {% endfor %}
 
 
   </section>
-
-  

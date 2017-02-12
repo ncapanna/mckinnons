@@ -3,7 +3,14 @@ $(document).ready( function() {
 
   // Owl Carousel
   // Basic setup responsive carousel with prev and next
-  $('.owl-carousel').owlCarousel({
+  $('.slider').owlCarousel({
+      loop:true,
+      margin:20,
+      nav:false,
+      autoplay:true,
+      items: 1,
+  })
+  $('.awards').owlCarousel({
       loop:true,
       margin:20,
       nav:true,
@@ -20,6 +27,7 @@ $(document).ready( function() {
           }
         }
   })
+
 
 });
 // end of document ready

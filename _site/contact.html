@@ -46,6 +46,8 @@
 
     <!-- visit http://realfavicongenerator.net to generate favicons for your site and then place them in the /images/favicons folder -->
 
+    <!-- Image Lightbox  -->
+    <link rel="stylesheet" href="css/lightbox.css">
 
     <!-- CUSTOM STYLESHEETS - This should always be the last stylesheet in your head -->
     <link rel="stylesheet" href="/css/main.css">
@@ -104,7 +106,7 @@
       <div class="pure-pusher"> <!-- this contains all of the body of the site -->
 
         <header class="grid-middle">
-  <div class="col-3_sm-12">
+  <div class="col-3_sm-12 header-margin">
     <img class="logo" src="/images/mck-logo-transparent.png" alt="Mckinnon">
   </div>
   <div class="col-9_sm-12 mob-hide">
@@ -119,19 +121,34 @@
   </div>
 </header>
 
+        <div class="empty-space"></div>
+
 
         <!-- BANNER SECTION ---->
 <div>
   <img src="images/contact-page.jpg">
 </div>
 <section>
-  <form action="https://formspree.io/nicole@adworxdigital.com.au"
-        method="POST">
-      <input type="text" placeholder="Your name">
-      <input type="email" placeholder="Your email">
-      <textarea placeholder="Your message"></textarea>
-      <input type="submit" value="Send">
-  </form>
+  <!-- Form section -->
+  <div class="grid">
+  <div class="col-12_sm-12">
+    <H1> Contact </h1>
+    </div>
+    <div class="col-7_sm-8_xs-12 ">
+      <form action="https://formspree.io/nicole@adworxdigital.com.au"
+            method="POST">
+          <input type="text" placeholder="Your name">
+          <input type="email" placeholder="Your email">
+          <textarea placeholder="Your message"></textarea>
+          <input type="submit" value="Send">
+      </form>
+    </div>
+  <div class="col-5_sm-4_xs-12 contact-font">
+    <img class="contact-logo" src="/images/mck-logo-transparent.png"alt="Mckinnon">
+    <p>McKinnon Environmental &amp; Earthmoving</br>
+      Phone: +61 413 446 792</p>
+  </div>
+</div>
 </section>
 
 
@@ -180,6 +197,10 @@
 <!-- Owl Carousel  -->
 <script src="jquery.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+
+<!-- Image Lightbox - http://lokeshdhakar.com/projects/lightbox2/ -->
+<script src="js/lightbox.js"></script>
+
 <!-- This is your file with custom javascript or jquery -->
 <script src="/js/main.js"></script>
 

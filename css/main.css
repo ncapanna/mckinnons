@@ -154,7 +154,24 @@ footer .logo {
 
 header {
   border-bottom: 1px solid rgb(245,245,245);
+  position:fixed;
+  z-index: 9999;
+  width:100%;
 }
+
+header .header-margin {
+  padding:0;
+}
+
+/*This is a forced hacky override for gridlex*/
+header[class*=grid] {
+  margin:0;
+}
+
+.empty-space {
+  height: 100px;
+}
+
 footer {
   border-top: 1px solid rgb(245,245,245);
   color: white;

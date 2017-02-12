@@ -1,7 +1,7 @@
 ---
 layout: default
-title:
-project:
+title: Projects
+projects:
     - description: Tank Removal, remediation and extensive earthworks, Sugar Mil Rd, Eagle Farm
       image_path: images/projects-page/tank-removal-eagle-farm.jpg
     - description: Rahhhhhh
@@ -16,7 +16,7 @@ project:
   
   {% for project in page.projects %}
     <div class="col-4_sm-6_xs-12 ">
-        <img class="editable" src="{{project.image_path}}">
+        <img class="editable" src="{{projects.image_path}}">
         <!-- add alt text  -->
         <p class=projects>{{project.description}}</p>
      </div>

@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Photos
+photos: 
+    - images/photo-gallery/image1.jpg
+    - images/photo-gallery/image2.jpg
+    - images/photo-gallery/image7.jpg
 ---
 
 
@@ -8,6 +12,20 @@ title: Photos
     <div class="col-12_sm-12">
       <H1 class="page-title editable"> Photos of Us at Work</h1>
     </div>
+    
+    {% for photo in page.photos %}
+    
+        <div class="col-4_sm-12 ">
+        <a href="{{photo}}" data-lightbox="roadtrip">
+          <img class="editable" src="{{photo}}" alt="">
+        </a>
+      </div>
+    
+    
+     {% endfor %}
+    
+    
+    
       <div class="col-4_sm-12 ">
         <a href="images/photo-gallery/image1.jpg" data-lightbox="roadtrip">
           <img class="editable" src="images/photo-gallery/image1.jpg" alt="">

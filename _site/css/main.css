@@ -75,7 +75,6 @@ footer p  { font-size: 14px; line-height: 1.5;}
 blockquote  { font-size: 1.1rem; line-height: 1.5;}
 li  { font-size: 1.1rem; }
 
-
 /* Padding & Margin */
 
 header, footer  { padding: 2vh 5%; }
@@ -142,8 +141,8 @@ nav a:hover {
   transition: all 0.5s;
 }
 .logo {
-  max-height: 5.5rem;
-  max-width: 15rem;
+  max-height: 15vh;
+  max-width: 30vw;
   /*margin: 0.5em 0;*/
 }
 
@@ -169,7 +168,7 @@ header[class*=grid] {
 }
 
 .empty-space {
-  height: 100px;
+  height: 95px;
 }
 
 footer {
@@ -180,6 +179,7 @@ footer nav a {
   display: inline-block;
   padding: 0.5em;
 }
+
 
 footer nav .fa,
 .social-share nav .fa {
@@ -365,6 +365,9 @@ background-image: url('/images/home-page-images/Home-careers-link.jpg');
 .slider3 {
   background-image: url("/images/home-page-images/slider-4.jpg");
 }
+.slider-font {
+background-color: rgba(0, 144, 119, .5);
+}
 
 /*------- Media Queries ------------------------*/
 @media(max-width:800px) {
@@ -378,6 +381,17 @@ background-image: url('/images/home-page-images/Home-careers-link.jpg');
     display: block;
   }
 
+  .mob-show a {
+    font-size: 20px;
+  }
+
+.logo {
+  height:30vh;
+}
+
+section {
+  padding: 1vh 5%;
+}
   /* These classes flip the order of the columns on a mobile layout so that we don't have two images touching. Try commenting them out and see the difference */
   .mob-flip {
       -webkit-box-orient: vertical;
@@ -406,4 +420,13 @@ background-image: url('/images/home-page-images/Home-careers-link.jpg');
     margin: 0;
   }
 
+   h1 {
+     font-size: 22px;
+     line-height: 1.0;
+     margin:0;
+   }
+   
+ .pure-drawer {
+   background-color: #009077;
+ }
 }/* End media query */

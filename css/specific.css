@@ -13,7 +13,7 @@
 
 .hover-text {
     position: absolute;
-    top: 185px;
+    bottom: 4px;
     left: 0;
     margin-bottom: 0;
     background-color: rgba(0, 144, 119, .5);
@@ -35,7 +35,7 @@ color: #009077;
 .projects {
   font-style: bold;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /*Awards Carousel*/
@@ -52,5 +52,5 @@ color: #009077;
 }
 
 .contact-logo{
-  width: 10vw;
+  width: 15vw;
 }

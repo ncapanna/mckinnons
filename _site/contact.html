@@ -86,18 +86,12 @@
 <nav class="mob-nav">
   <a href="/index"> Home </a>
   <a href="/about"> About </a>
-  <a href="/blog"> Blog </a>
-  <a href="/shop"> Shop </a>
+  <a href="/services"> Services </a>
+  <a href="/projects"> Projects </a>
+  <a href="/contact"> Contact Us </a>
 </nav>
 
 <hr> <!-- this is a horizontal rule, aka line -->
-
-<nav class="social-nav">
-  <!-- add your social links here -->
-  <a href="#"> <i class="fa fa-facebook"></i> </a>
-  <a href="#"> <i class="fa fa-instagram"></i> </a>
-  <a href="#"> <i class="fa fa-twitter"></i> </a>
-</nav>
 
 
   </div>
@@ -128,38 +122,39 @@
 <div>
   <img src="images/contact-page.jpg">
 </div>
-<section>
+<div>
   <!-- Form section -->
-  <div class="grid">
+  <section class="grid">
   <div class="col-12_sm-12">
-    <H1> Contact </h1>
+    <H1 class="page-title"> Contact </h1>
     </div>
-    <div class="col-7_sm-8_xs-12 ">
+    <div class="col-7_sm-12_xs-12 ">
       <form action="https://formspree.io/nicole@adworxdigital.com.au"
             method="POST">
-          <input type="text" placeholder="Your name">
-          <input type="email" placeholder="Your email">
-          <textarea placeholder="Your message"></textarea>
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="_replyto" placeholder="Your email" required>
+          <input type="tel" name="phone-number" placeholder="Your contact number">
+          <textarea placeholder="Your message" name="message"></textarea>
           <input type="submit" value="Send">
       </form>
     </div>
-  <div class="col-5_sm-4_xs-12 contact-font">
+  <div class="col-5_sm-12_xs-12 contact-font">
     <img class="contact-logo" src="/images/mck-logo-transparent.png"alt="Mckinnon">
     <p>McKinnon Environmental &amp; Earthmoving</br>
       Phone: +61 413 446 792</p>
-  </div>
+  </section>
 </div>
-</section>
+</div>
 
 
-        <footer class="grid">
+        <footer>
 
   <!-- Column 1 -->
-
+<div  class="grid mob-hide">
   <div class="col-6_sm-12">
     <h6>McKinnon</h6>
     <p> McKinnon Earthmoving (QLD) Pty Ltd / McKinnon Environmental Pty Ltd (McKinnon) has grown and led the way in providing innovative and comprehensive earthmoving and environmental contracting services sincee 1991. </p>
-    <nav class="footer">
+    <nav>
       <a href="/index"> Home </a>
       <a href="/about"> About </a>
       <a href="/services"> Services </a>
@@ -171,11 +166,20 @@
   </div>
 
   <!-- Column 3 -->
-
   <div class="col-6_sm-12 right">
     <img class="logo" src="/images/mck-logo-transparent.png" alt="McKinnon">
   </div>
-
+</div>
+  <!-- mobile footer menu -->
+<div class="mob-show">
+  <nav class="footer">
+    <a href="/index"> Home </a>
+    <a href="/about"> About </a>
+    <a href="/services"> Services </a>
+    <a href="/contact"> Contact Us </a>
+    <a href="tell:+61413446792"> +61 413 446 792 </a>
+  </nav>
+</div>
 </footer>
 
 

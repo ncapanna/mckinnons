@@ -2,12 +2,12 @@
 layout: default
 title: Photos
 photos: 
-    - src: images/photo-gallery/image1.jpg
-      alt: image 1
-    - src: images/photo-gallery/image2.jpg
-      alt: image 2
-    - src: images/photo-gallery/image7.jpg
-      alt: image 3
+    - image_path: images/photo-gallery/image1.jpg
+      description: image 1
+    - image_path: images/photo-gallery/image2.jpg
+      description: image 2
+    - image_path: images/photo-gallery/image7.jpg
+      description: image 3
 ---
 
 
@@ -19,8 +19,8 @@ photos:
     {% for photo in page.photos %}
     
         <div class="col-4_sm-12 ">
-        <a href="{{photo}}" data-lightbox="roadtrip">
-          <img class="editable" src="{{photo}}" alt="">
+        <a href="{{photo.image_path}}" data-lightbox="roadtrip">
+          <img class="editable" src="{{photo.description}}" alt="">
         </a>
       </div>
     

@@ -7,11 +7,7 @@ banner-1_path: /uploads/pr-photos-6472.jpg
 hot-weather: true
 ---
 
-{% if page.hot-weather == true %}
 
-<h1> HOT WEATHER </h1>
-
-{% endif %}
 
   <!-- FIRST BANNER SECTION ---->
   <!-- <section id="intro-banner" class="banner featured centered grid-middle"> -->
@@ -47,6 +43,13 @@ hot-weather: true
 <!-- text section home -->
   <section class="featured centered">
     <h3> Welcome to McKinnon's </h3>
+    
+    {% if page.hot-weather == true %}
+
+        <h1> HOT WEATHER </h1>
+        
+        {% endif %}
+    
     <p> McKinnon provides experienced, reliable and cost effective earthworks and environmental contracting services to industry. We are experts in Underground Storage Tank (UST) removal, demolition, environmental earthworks and groundwater and vapour remediation.</p>
 
     <p>At McKinnon, we have an extensive range of remediation, wastewater treatment and earthworks equipment available for hire. We offer trained, competent and qualified technical and professional personnel to achieve your project goals.</p>

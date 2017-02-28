@@ -1,62 +1,60 @@
 ---
 layout: default
-title: Photos
+title: 'Photos of McKinnon Earthmoving & Environmental at work'
+meta-description: 'Our gallery shows recent projects including Water treatment of Hydrocarbons &amp; heavy metals, extensive earthworks, remediation works, water treatment &amp; more.'
+meta-keywords: 'Excavating, tank removal, water treatment, treatment of hydrocarbons, raetmet of heavy metals, earthworks, remdiation works, wter treatment'
 photos:
-    - image_path: /images/photo-gallery/image1.jpg
-      description: image 1
-    - image_path: /images/photo-gallery/image2.jpg
-      description: image 2
-    - image_path: /images/photo-gallery/image7.jpg
-      description: image 7
-    - image_path: /images/photo-gallery/image5.jpg
-      description: image 5
-    - image_path: /images/photo-gallery/image4.jpg
-      description: image 4
-    - image_path: /images/photo-gallery/image6.jpg
-      description: image 6
-    - image_path: /images/photo-gallery/image8.jpg
-      description: image 8
-    - image_path: /images/photo-gallery/image9.jpg
-      description: image 9
-    - image_path: /images/photo-gallery/image10.jpg
-      description: image 10
-    - image_path: /images/photo-gallery/image11.jpg
-      description: image 11
-    - image_path: /images/photo-gallery/image12.jpg
-      description: image 12
-    - image_path: /images/photo-gallery/image13.jpg
-      description: image 13
-    - image_path: /images/photo-gallery/image14.jpg
-      description: image 14
-    - image_path: /images/photo-gallery/image15.jpg
-      description: image 15
-    - image_path: /images/photo-gallery/image16.jpg
-      description: image 16
-    - image_path: /images/photo-gallery/image17.jpg
-      description: image 17
-    - image_path: /images/photo-gallery/image18.jpg
-      description: image 18
-    - image_path: /images/photo-gallery/image19.jpg
-      description: image 19
-    - image_path: /images/photo-gallery/image23.jpg
-      description: image 23
-    - image_path: /images/photo-gallery/image24.jpg
-      description: image 24
-    - image_path: /images/photo-gallery/image7.jpg
-      description: image 25
+  - image_path: /images/photo-gallery/image1.jpg
+    description: Excavating
+  - image_path: /images/photo-gallery/image2.jpg
+    description: image 2
+  - image_path: /images/photo-gallery/image7.jpg
+    description: McKinnon Earthmoving Tank Removal
+  - image_path: /images/photo-gallery/image5.jpg
+    description: image 5
+  - image_path: /images/photo-gallery/image4.jpg
+    description: image 4
+  - image_path: /images/photo-gallery/image10.jpg
+    description: image 10
+  - image_path: /images/photo-gallery/image11.jpg
+    description: image 11
+  - image_path: /images/photo-gallery/image12.jpg
+    description: image 12
+  - image_path: /images/photo-gallery/image13.jpg
+    description: image 13
+  - image_path: /images/photo-gallery/image14.jpg
+    description: image 14
+  - image_path: /images/photo-gallery/image15.jpg
+    description: image 15
+  - image_path: /images/photo-gallery/image16.jpg
+    description: image 16
+  - image_path: /images/photo-gallery/image17.jpg
+    description: image 17
+  - image_path: /images/photo-gallery/image18.jpg
+    description: image 18
+  - image_path: /images/photo-gallery/image19.jpg
+    description: image 19
+  - image_path: /images/photo-gallery/image23.jpg
+    description: image 23
+  - image_path: /images/photo-gallery/image24.jpg
+    description: image 24
+  - image_path: /images/photo-gallery/image7.jpg
+    description: image 25
+  - image_path: /uploads/030acidsulphate-opt.jpg
+    description:
 ---
 
 
  <section class="grid">
     <div class="col-12_sm-12">
-      <H1 class="page-title editable"> Photos of Us at Work</h1>
+      <h1 class="page-title editable">Photos of us at work</h1>
     </div>
 
     {% for photo in page.photos %}
 
         <div class="col-4_sm-12 ">
         <a href="{{photo.image_path}}" data-lightbox="roadtrip">
-          <img class="editable" src="{{photo.image_path}}" alt="{{photo.description}}">
+          <img class="editable" src="{{photo.image_path}}" alt="{{photo.description}}" />
         </a>
       </div>
 
